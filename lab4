@@ -1,0 +1,70 @@
+Q7. Input three integers and display them.
+#include <stdio.h>
+
+int main()
+{
+    int a, b, c;
+
+    printf("Enter three numbers: ");
+    scanf("%d%d%d", &a, &b, &c);
+
+    printf("%d %d %d", a, b, c);
+
+    return 0;
+}
+
+Q8. Input name, roll number, and marks of a student.
+#include <stdio.h>
+
+int main()
+{
+    char name[50];
+    int roll;
+    float marks;
+
+    printf("Enter name: ");
+    scanf("%s", name);
+
+    printf("Enter roll number: ");
+    scanf("%d", &roll);
+
+    printf("Enter marks: ");
+    scanf("%f", &marks);
+
+    printf("\nName: %s", name);
+    printf("\nRoll: %d", roll);
+    printf("\nMarks: %f", marks);
+
+    return 0;
+}
+
+Q9. Input two floating-point numbers and display them.
+#include <stdio.h>
+
+int main()
+{
+    float a, b;
+
+    printf("Enter two numbers: ");
+    scanf("%f%f", &a, &b);
+
+    printf("Numbers: %f %f", a, b);
+
+    return 0;
+}
+
+Q10. Input length and breadth of a rectangle and display them.
+#include <stdio.h>
+
+int main()
+{
+    float l, b;
+
+    printf("Enter length and breadth: ");
+    scanf("%f%f", &l, &b);
+
+    printf("Length = %f", l);
+    printf("\nBreadth = %f", b);
+
+    return 0;
+}
