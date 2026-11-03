@@ -1,0 +1,59 @@
+Example 1: Check Even or Odd
+#include <stdio.h>
+
+int main()
+{
+    int num;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    (num % 2 == 0) ? printf("Even") : printf("Odd");
+
+    return 0;
+}
+
+Example 2: Check Positive or Negative
+#include <stdio.h>
+
+int main()
+{
+    int num;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    (num > 0) ? printf("Positive") : printf("Negative or Zero");
+
+    return 0;
+}
+
+Example 3: Find the Greatest of Two Numbers
+#include <stdio.h>
+
+int main()
+{
+    int a, b;
+
+    printf("Enter two numbers: ");
+    scanf("%d%d", &a, &b);
+
+    (a > b) ? printf("A is greater") : printf("B is greater or equal");
+
+    return 0;
+}
+
+Example 4: Check Voting Eligibility
+#include <stdio.h>
+
+int main()
+{
+    int age;
+
+    printf("Enter your age: ");
+    scanf("%d", &age);
+
+    (age >= 18) ? printf("Eligible for voting") : printf("Not eligible for voting");
+
+    return 0;
+}
