@@ -1,0 +1,62 @@
+Example 1: Pre-increment (++a)
+#include <stdio.h>
+
+int main()
+{
+    int a = 10;
+
+    printf("%d", ++a);
+
+    return 0;
+}
+
+Example 2: Post-increment (a++)
+#include <stdio.h>
+
+int main()
+{
+    int a = 10;
+
+    printf("%d\n", a++);
+    printf("%d", a);
+
+    return 0;
+}
+Example 3: Pre-decrement (--a)
+#include <stdio.h>
+
+int main()
+{
+    int a = 10;
+
+    printf("%d", --a);
+
+    return 0;
+}
+
+
+Example 4: Post-decrement (a--)
+#include <stdio.h>
+
+int main()
+{
+    int a = 10;
+
+    printf("%d\n", a--);
+    printf("%d", a);
+
+    return 0;
+}
+
+question - 
+#include <stdio.h>
+
+int main()
+{
+    int a = 5;
+
+    printf("%d\n", a++);
+    printf("%d\n", ++a);
+
+    return 0;
+}
