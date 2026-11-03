@@ -1,0 +1,86 @@
+Q1. Print your name, age, and college name.
+#include <stdio.h>
+
+int main()
+{
+    printf("Name: Guruprasad\n");
+    printf("Age: 18\n");
+    printf("College: DAVV IIPS");
+
+    return 0;
+}
+
+Q2. Input your name and display it.
+#include <stdio.h>
+
+int main()
+{
+    char name[50];
+
+    printf("Enter your name: ");
+    scanf("%s", name);
+
+    printf("Name: %s", name);
+
+    return 0;
+}
+
+Q3. Input your age and display it.
+#include <stdio.h>
+
+int main()
+{
+    int age;
+
+    printf("Enter your age: ");
+    scanf("%d", &age);
+
+    printf("Age: %d", age);
+
+    return 0;
+}
+
+Q4. Input your roll number and display it.
+#include <stdio.h>
+
+int main()
+{
+    int roll;
+
+    printf("Enter roll number: ");
+    scanf("%d", &roll);
+
+    printf("Roll number: %d", roll);
+
+    return 0;
+}
+
+Q5. Input marks of a student and display them.
+#include <stdio.h>
+
+int main()
+{
+    float marks;
+
+    printf("Enter marks: ");
+    scanf("%f", &marks);
+
+    printf("Marks: %f", marks);
+
+    return 0;
+}
+
+Q6. Input two integers and display both numbers.
+#include <stdio.h>
+
+int main()
+{
+    int a, b;
+
+    printf("Enter two numbers: ");
+    scanf("%d%d", &a, &b);
+
+    printf("A = %d\nB = %d", a, b);
+
+    return 0;
+}
