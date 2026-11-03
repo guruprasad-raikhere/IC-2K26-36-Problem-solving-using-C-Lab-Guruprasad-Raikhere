@@ -1,0 +1,27 @@
+use of printf funtion 
+Code 1 -
+
+ #include <stdio.h>
+
+ int main()
+  {
+    printf("Hello World");
+
+    return 0;
+  }
+
+Code 2 - 
+#include <stdio.h>
+
+int main()
+{
+    int age = 18;
+    float marks = 85.5;
+    char grade = 'A';
+
+    printf("My age is %d\n", age);
+    printf("My marks are %f\n", marks);
+    printf("My grade is %c\n", grade);
+
+    return 0;
+}
